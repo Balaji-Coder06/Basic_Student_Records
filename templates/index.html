@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Record Management (WASM + Flask)</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Record Management</h1>
+
+        <!-- Input Fields -->
+        <label for="roll">Roll No:</label>
+        <input id="roll" type="number" placeholder="Enter Roll Number">
+
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter Name">
+
+        <label for="marks">Marks:</label>
+        <input id="marks" type="number" placeholder="Enter Marks">
+
+        <!-- Action Buttons -->
+        <button onclick="addRecord()">Add Record</button>
+        <button onclick="displayRecords()">Display Records</button>
+
+        <!-- Output Display -->
+        <pre id="output"></pre>
+    </div>
+
+    <!-- JavaScript Link -->
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
