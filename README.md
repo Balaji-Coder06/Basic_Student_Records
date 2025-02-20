@@ -14,3 +14,6 @@ Add student records (Roll No, Name, Marks).
 >WebAssembly (WASM) (Run C code in the browser)
 >Flask (Python web framework for backend)
 >HTML + CSS + JavaScript (Frontend interface)
+
+Use This Link To Acess :
+https://huggingface.co/spaces/Balaji-Coder/student-records-wasm
